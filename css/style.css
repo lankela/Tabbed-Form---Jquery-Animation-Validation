@@ -1,0 +1,44 @@
+body{
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+li{
+	list-style: none;
+}
+li.fileds{
+	margin: 0;
+	padding: 1em 0;
+}
+li.title{
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 2em;
+	background: grey;
+	border-bottom: 1px solid #c5c5c5;
+	border-top: 1px solid #fff;
+	margin: 12px 0;
+	border-radius: 5px;
+
+}
+input{
+	margin: 10px 0;
+	border: 2px solid grey;
+	padding: 5px;
+    border-radius: 5px;
+}
+.submit{    
+	background: skyblue;
+    padding: 12px;
+    margin-left: 34px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+
+.hide{
+	display: none;
+}
+
